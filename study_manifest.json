@@ -1,0 +1,66 @@
+{
+  "title": "Molecular Visualization Study",
+  "study_type": "qualitative visual comparison",
+  "study_date": "2026-07-19",
+  "public_case_study_prepared": "2026-10-28",
+  "roles": {
+    "olivia_rieva": [
+      "testing",
+      "visual quality assurance",
+      "terminal-to-Blender comparison",
+      "case selection",
+      "presentation direction"
+    ],
+    "mark_jones_mqs": [
+      "software architecture",
+      "software implementation"
+    ],
+    "codex": [
+      "public case-study organization",
+      "documentation drafting"
+    ]
+  },
+  "cases": [
+    {
+      "id": "P01",
+      "label": "Paracetamol",
+      "class": "small mostly planar molecule",
+      "preview": "assets/paracetamol-terminal.png",
+      "blender": "assets/paracetamol-blender.png",
+      "question": "Does the 3D view preserve a readable molecular skeleton?"
+    },
+    {
+      "id": "A01",
+      "label": "Asparagine",
+      "class": "compact non-planar molecule",
+      "preview": "assets/asparagine-terminal.png",
+      "turntable": "assets/asparagine-turntable.gif",
+      "blender": "assets/asparagine-blender.png",
+      "question": "Do depth and atom overlap remain understandable?"
+    },
+    {
+      "id": "C01",
+      "label": "Extended peptide-like chain",
+      "class": "long anisotropic structure",
+      "preview": "assets/peptide-terminal.png",
+      "blender": "assets/peptide-blender.png",
+      "question": "Can the camera avoid an edge-on or excessively distant view?"
+    },
+    {
+      "id": "X01",
+      "label": "Periodic crystal model",
+      "class": "periodic material",
+      "preview": "assets/crystal-terminal.png",
+      "turntable": "assets/crystal-turntable.gif",
+      "blender": "assets/crystal-blender.png",
+      "question": "Does a clean render lose useful crystallographic context?"
+    }
+  ],
+  "limitations": [
+    "No computational-chemistry validation is claimed.",
+    "The private MQS source code is not included.",
+    "Visual conclusions are qualitative.",
+    "Colors and atom sizes are rendering conventions."
+  ]
+}
+
